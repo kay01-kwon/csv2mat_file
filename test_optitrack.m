@@ -23,7 +23,7 @@ TotalBodies = length(body_names);
 fprintf('The total number of Rigid Body: %d \n',TotalBodies);
 
 for i=1:TotalBodies
-    body.body_index(i,:)=find(body_names(i)==lines(4).string);
+    data.body_index(i,:)=find(body_names(i)==lines(4).string);
 end
 
 
